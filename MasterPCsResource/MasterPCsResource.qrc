@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/MasterPCsResource">
+        <file>masterUser.mUsr</file>
+    </qresource>
+</RCC>

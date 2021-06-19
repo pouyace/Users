@@ -1,0 +1,84 @@
+
+QWidget.sample1{
+background-color:DarkSlateGray;
+background-image:url(":/image1.jpg");
+background-position:right center;
+background-attachment: scroll;
+}
+
+QComboBox{
+color:#f0f0f0;
+border:2px;
+border-radius:4px;
+background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(189, 195, 199, 255), stop:0.97191 rgba(44, 62, 80, 255));
+font:bold 12px;
+min-height:25px;
+}
+QPushButton.GeneralButton{
+color:#f0f0f0;
+border:2px;
+border-radius:4px;
+background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(189, 195, 199, 255), stop:0.691011 rgba(44, 62, 80, 255));
+font:bold 12px;
+min-height:25px;
+}
+QPushButton.GeneralButton:hover{
+background-color:#2c3e50;
+color:White;
+/*background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(189, 195, 199, 255), stop:0.97191 rgba(44, 62, 80, 255));*/
+}
+QPushButton.GeneralButton:pressed{
+background-color:orange;
+}
+QLabel.GeneralLabel{
+font:bold 14px;
+color:MintCream;
+background-color:#707070;
+border:2px;
+border-radius:5px;
+padding:1px;
+min-height:12px;
+}
+QLabel.FixedLabels{
+font:bold 14px;
+color:MintCream;
+background-color:Gray;
+border:2px;
+border-radius:5px;
+padding:1px;
+min-height:12px;
+}
+QLabel.timeLabel{
+font:bold 14px;
+color:YellowGreen;
+background-color:DarkSlateGray;
+border:2px;
+border-radius:5px;
+padding:1px;
+min-height:5px;
+}
+QLabel.WelcomeLabel{
+font:bold 14px;
+color:YellowGreen;
+background-color:DarkSlateGray;
+border:2px;
+border-radius:5px;
+padding:1px;
+min-height:4px;
+}
+QDialog{
+background-color:DarkSlateGray;
+background-image:url(":/image2.jpg");
+}
+
+QLineEdit{
+color:Navy;
+border:2px;
+border-radius:20px;
+border:2px;
+border-radius:5px;
+background-color:Azure;
+height:20px;
+font:bold 12px;
+}
+
